@@ -1,5 +1,7 @@
 # Python Logger by JamesJoynsonEllis
 
+# [Requires datetime]
+
 def logger():
     from datetime import datetime
     file_path = input("File path to log to (.txt is best): ")
