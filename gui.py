@@ -35,6 +35,7 @@ def logger_tkinter():
         current_date = datetime.today().strftime("%d/%m/%Y")
         log = "<" + current_date + " " + current_time + "> " + log
         file = open(file_path, "a")
+        file.write("\n")
         file.write(log)
 
     # Buttons

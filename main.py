@@ -10,6 +10,7 @@ def logger():
     current_time = datetime.now().strftime("%H:%M:%S")
     current_date = datetime.today().strftime("%d/%m/%Y")
     log = "<" + current_date + " " + current_time + "> " + log
+    file.write("\n")
     file.write(log)
 
 logger()
